@@ -556,13 +556,13 @@
 		<page name="filter_">
 			<template name="sort_options"/>
 
-			<text style="text_l">
+			<!--text style="text_l">
 				<placement x="%filter_test_1_x%" y="%row11_y%"/>
 				<text>{@autostorage=Storage}</text>
-			</text>
+			</text-->
 
 			<partitionlist style="storage_list">
-				<placement x="%s_list_x%" y="%row12_y%" w="content_overlay_width" h="%partitionlist_storage_height%"/>
+				<placement x="%s_list_x%" y="%row11_y%" w="content_overlay_width" h="%partitionlist_storage_height%"/>
 				<data name="tw_storage_path"/>
 				<listtype name="storage"/>
 			</partitionlist>
